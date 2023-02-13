@@ -1,0 +1,44 @@
+body{
+    display: inline-flex;
+}
+.container{
+    height: 100vh;    
+    display: inline-flex;
+    position: relative;
+    align-items: center;
+}
+.inner,.outer{
+    border: 10px solid black;
+    border-radius: 400px;
+    display: flex;
+    position: absolute;
+}
+.outer{
+    width: 400px;
+    height: 400px;
+    background-color: red;
+    justify-content: center;
+    align-items: center;
+    left: 50px
+}
+.inner{
+    width: 200px;
+    height: 200px;
+    background-color: white;
+}
+.stem{
+    width: 640px;
+    height: 100px;
+    background-color: black;    
+    margin-left: 450px;
+}
+.square2,.square1{
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    position: absolute;
+    margin: 190px 0 0 990px;
+}
+.square2{  
+    margin-left: 800px; 
+}

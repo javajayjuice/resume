@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: 'Comfortaa', cursive;
+}
+
+.title-text{
+    text-align: center;
+    padding-bottom: 70px;
+}
+
+.title-text p{
+    margin: auto;
+    font-size: 20px;
+    color: coral;
+    font-weight: bold;
+    position: relative;
+    z-index: 1;
+    display: inline-block;
+}
+.title-text h1{
+    font-size: 80px;
+}
+
+/*footer*/
+#footer{
+    padding: 100px 0 20px;
+    background: azure;
+    position: relative;
+}
+
+.footer-row{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+}
+.footer-left, .footer-right{
+    flex-basis: 45%;
+    padding: 10px;
+    margin-bottom: 20px;
+    font-size: 25px;
+    text-decoration: none;
+}
+
+.footer-right{
+    text-align: right;
+}
+
+.footer-left{
+    text-align: left;
+}
+
+.footer-row h1{
+    margin: 10px 0; 
+    font-size: 20px;   
+}
+
+.footer-row p{
+    line-height: 35px;
+}
+.footer-left a{    
+    text-decoration: none;
+    color: #000;
+}
+
+.footer-img{
+    max-width: 370px;
+    opacity: 0.1;
+    position: absolute;
+    left: 50%;
+    top: 35%;
+    transform: translate(-50%,-50%);
+}
+
+.icon{
+    width: 20px;
+    padding: 4 0px 0px 4px;
+    border:1px solid coral;
+}
+
+.social-links{
+    text-align: center;
+}
+
+.social-links img{
+    height: 60px;
+    width: 60px;
+    font-size: 20px;
+    line-height: 40px;
+    border: 1px solid coral;
+    margin: 40px 5px 0;
+    cursor: pointer;
+    transition: 0.5s;
+    border-radius: 10px;
+}
+
+.social-links img:hover{
+    background: coral;
+    color: azure;
+    transform: translateY(-7px);
+}
+
+.social-links p{
+    font-size: 12px;
+    margin-top: 20px;
+}
+
+/*button botom*/
+.banner-btn-botom{
+    margin: 10px auto 0;
+    align-self: center;
+    font-size: 19px;
+}
+
+.banner-btn-botom a{
+    width: 150px;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    padding: 12px 0;
+    color: coral;
+    border: .5px solid #fff;
+    position: relative;
+    z-index: 1;
+    transition: color 0.5s;
+}
+
+.banner-btn-botom a span{
+    width: 0;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #fff;
+    z-index: -1;
+    transition: 0.5s;
+}
+
+.banner-btn-botom a:hover span{
+    width: 100%;
+}
+
+.banner-btn-botom a:hover{
+    color: #000;
+}
